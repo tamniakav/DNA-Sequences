@@ -1,10 +1,6 @@
 # DNA-Sequences
 Just another repository
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DNA_Sequences
 {
@@ -13,11 +9,7 @@ namespace DNA_Sequences
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-
-            int a = 0;
-            int c = 0;
-            int g = 0;
-            int t = 0;
+                        
             int sum = 0;
 
             for (char i = 'A'; i <= 'T'; i++)
